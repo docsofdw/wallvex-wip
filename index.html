@@ -1,66 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://use.typekit.net/hyg3rsl.css"> <!-- Adobe Fonts Vortice -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      overflow: hidden; /* Prevents scrolling */
-    }
-    section {
-      min-height: 100vh;
-      background-image: url('assets/img/bg3.jpg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      overflow: hidden; /* Ensures no internal scroll */
-    }
-    body {
-      font-family: 'vortice', sans-serif; /* Applies Vortice font */
-    }
-    .btn-pantone-289 {
-      background-color: #002F6C; /* Navy, similar to Pantone 289 */
-      color: white; /* Text color */
-      border: none;
-      transition: background-color 0.3s; /* Smooth transition for hover */
-    }
-    .btn-pantone-289:hover {
-      background-color: #001f4d; /* Darker navy on hover */
-    }
-    .text-pantone-289 {
-      color: #002F6C; /* Navy, similar to Pantone 289 */
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/hyg3rsl.css"> 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html, body {
+            height: auto;
+            margin: 0;
+            padding: 0;
+        }
+        section {
+            min-height: 100vh;
+            padding: 8rem 4rem; 
+            background-image: url('assets/img/bg2.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: local;
+            display: flex;         
+            align-items: center;   
+            justify-content: center; 
+        }
+        body {
+            font-family: 'vortice', sans-serif; 
+        }
+        .text-pantone-289 {
+            color: #002F6C; 
+        }
+        .container {
+            text-align: center; 
+        }
+    </style>
 </head>
 <body>
-  <section class="py-24">
-    <div class="container px-4 mx-auto">
-      <div class="text-center">
-        <span class="hidden inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium rounded-full shadow-sm">BLAH</span>
-        <h3 class="mb-10 mx-auto text-5xl md:text-6xl leading-tight text-gray-50 font-bold tracking-tighter max-w-5xl">
-          Website <span class="text-pantone-289">Coming Soon...</span>
-        </h3>
-        <div class="relative mb-4 mx-auto max-w-max">
-          <img class="relative z-10 mb-2" src="assets/img/logo2.png" alt="Wallvex Logo">
-          <h4 class="text-3xl md:text-4xl text-gray-200 font-bold">Abrasive Drywall Products</h4>
+    <section class="py-24">
+        <div class="container px-4 mx-auto">
+          <div class="text-center">
+            <span class="hidden inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium rounded-full shadow-sm">BLAH</span>
+             <h1 class="mb-6 mx-auto text-5xl md:text-6xl leading-tight text-gray-50 font-bold tracking-tighter max-w-5xl">
+                 Website <span class="text-pantone-289">Coming Soon...</span>
+             </h1>
+             <div class="relative mb-6 mx-auto max-w-max">  <img class="relative z-10 mb-2" src="assets/img/wallvex-logo.jpg" alt="Wallvex Logo">
+                 <h2 class="text-3xl md:text-4xl text-gray-200 font-bold">Abrasive Drywall Products</h2>
+             </div>
+             <p class="mb-8 mx-auto text-lg md:text-xl text-gray-50 font-light max-w-4xl">
+                 If you have any questions about our products and how to purchase please email us at 
+                 <a href="mailto:sales@wallvex.com"><span style="font-size: 1.25em; font-weight: bold;">sales@wallvex.com</span></a>.
+             </p>               
+             <a class="inline-block py-4 px-10 text-white bg-blue-600 hover:bg-blue-700 font-medium text-sm leading-snug uppercase rounded shadow-md mb-10" href="mailto:sales@wallvex.com">Email Us</a> 
         </div>
-        <p class="mb-6 mx-auto text-lg md:text-xl text-gray-50 font-light max-w-4xl">
-          If you have any questions about our products and how to purchase please email us at 
-          <a href="mailto:sales@wallvex.com">sales@wallvex.com</a>.
-        </p>
-        <div class="flex flex-wrap justify-center">
-          <div class="w-full md:w-auto py-1 md:py-0">
-            <a class="inline-block py-6 px-10 w-full text-lg md:text-xl leading-6 font-medium text-center btn-pantone-289" href="mailto:sales@wallvex.com">Email Us</a>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 </body>
 </html>
