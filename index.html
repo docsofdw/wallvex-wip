@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Ensure the section covers at least the full viewport height */
+    section {
+      min-height: 100vh; /* This will make the section cover the full height of the viewport */
+      background-image: url('assets/img/bg1.jpg');
+      background-size: cover; /* Cover the full area of the section */
+      background-position: center; /* Center the background image */
+      background-repeat: no-repeat; /* Do not repeat the background */
+    }
+  </style>
+</head>
+<body>
+  <section class="py-24">
+    <div class="container px-4 mx-auto">
+      <div class="text-center">
+        <span class="hidden inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium rounded-full shadow-sm">BLAH</span>
+        <h3 class="mb-10 mx-auto text-3xl md:text-4xl leading-tight text-gray-50 font-bold tracking-tighter max-w-5xl">Website Coming Soon...</h3>
+        <div class="relative mb-10 mx-auto max-w-max">
+          <img class="relative z-10" src="assets/img/logo-1.png" alt="">
+        </div>
+        <p class="mb-6 mx-auto text-lg md:text-xl text-gray-50 font-medium max-w-4xl">If you have any questions about our products and how to purchase please email us at <a href="mailto:sales@wallvex.com">sales@wallvex.com</a>.</p>
+        <div class="flex flex-wrap justify-center">
+          <div class="w-full md:w-auto py-1 md:py-0"><a class="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-coolGray-800 font-medium text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-coolGray-200 focus:ring-opacity-50 border border-coolGray-200 rounded-md shadow-sm" href="mailto:sales@wallvex.com">Email Us</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
